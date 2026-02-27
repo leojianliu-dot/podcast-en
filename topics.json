@@ -1,0 +1,138 @@
+{
+  "topics": [
+    {
+      "id": "top-headlines",
+      "name": "Top Headlines",
+      "description": "Biggest stories of the day from major outlets",
+      "search_queries": [
+        "top news today",
+        "breaking news today",
+        "major stories today"
+      ],
+      "primary_sources": ["WSJ", "NYT", "Reuters", "AP News", "BBC", "Bloomberg"],
+      "priority": 1
+    },
+    {
+      "id": "us-politics",
+      "name": "US Politics",
+      "description": "Federal policy, Congress, White House, executive orders, Supreme Court",
+      "search_queries": [
+        "US politics news today",
+        "Congress news today",
+        "White House news",
+        "Supreme Court news"
+      ],
+      "primary_sources": ["NYT", "WSJ", "NPR", "AP News", "Reuters"],
+      "priority": 2
+    },
+    {
+      "id": "california-politics",
+      "name": "California & State Politics",
+      "description": "Governor, state legislature, ballot measures, regulations, state budget",
+      "search_queries": [
+        "California politics news",
+        "California governor news",
+        "California state legislature",
+        "California regulations news"
+      ],
+      "primary_sources": ["AP News", "NPR"],
+      "secondary_sources": ["San Francisco Chronicle", "LA Times", "CalMatters", "Sacramento Bee"],
+      "priority": 3
+    },
+    {
+      "id": "bay-area-local",
+      "name": "Bay Area Local",
+      "description": "SF/South Bay city politics, housing, transit, crime, schools, development",
+      "search_queries": [
+        "San Francisco news today",
+        "Bay Area news today",
+        "Silicon Valley news",
+        "Bay Area housing transit"
+      ],
+      "primary_sources": ["NPR", "AP News"],
+      "secondary_sources": ["San Francisco Chronicle", "SF Gate", "The Mercury News", "SF Standard"],
+      "priority": 4
+    },
+    {
+      "id": "economy-markets",
+      "name": "Economy & Markets",
+      "description": "Fed, jobs, inflation, earnings, tariffs, housing market",
+      "search_queries": [
+        "US economy news today",
+        "Federal Reserve news",
+        "US stock market today",
+        "US inflation jobs data"
+      ],
+      "primary_sources": ["WSJ", "Bloomberg", "CNBC", "Reuters"],
+      "priority": 5
+    },
+    {
+      "id": "tech-ai",
+      "name": "Tech & AI",
+      "description": "Silicon Valley, AI developments, big tech, cybersecurity, startups",
+      "search_queries": [
+        "AI news today",
+        "technology news today",
+        "Silicon Valley news",
+        "cybersecurity news"
+      ],
+      "primary_sources": ["NYT", "WSJ", "Reuters"],
+      "secondary_sources": ["TechCrunch", "The Verge", "Ars Technica", "Wired"],
+      "priority": 6
+    },
+    {
+      "id": "personal-finance",
+      "name": "Personal Finance",
+      "description": "Tax tips, savings, investment trends, credit, housing market, retirement",
+      "search_queries": [
+        "personal finance tips news",
+        "tax tips savings",
+        "housing market news today",
+        "investment trends retirement"
+      ],
+      "primary_sources": ["WSJ", "CNBC", "Bloomberg"],
+      "secondary_sources": ["NerdWallet", "Bankrate", "The Motley Fool"],
+      "priority": 7
+    },
+    {
+      "id": "bay-area-life",
+      "name": "Bay Area Life",
+      "description": "Restaurants, events, travel, things to do, food, culture",
+      "search_queries": [
+        "San Francisco restaurants news",
+        "Bay Area events this week",
+        "Bay Area things to do",
+        "San Francisco food news"
+      ],
+      "secondary_sources": ["SF Chronicle Food", "Eater SF", "Infatuation SF", "7x7"],
+      "priority": 8
+    },
+    {
+      "id": "health-science",
+      "name": "Health & Science",
+      "description": "Medical news, public health, biotech, scientific research",
+      "search_queries": [
+        "health news today",
+        "medical breakthrough news",
+        "science news today"
+      ],
+      "primary_sources": ["NYT", "NPR", "BBC", "Reuters"],
+      "secondary_sources": ["STAT News", "Nature", "Science"],
+      "priority": 9
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Severe weather alerts ONLY — storms, heat waves, air quality, flooding. Skip if normal.",
+      "search_queries": [
+        "Bay Area severe weather alert",
+        "San Francisco weather warning",
+        "Bay Area storm forecast"
+      ],
+      "primary_sources": ["National Weather Service Bay Area"],
+      "priority": 10,
+      "conditional": true,
+      "include_condition": "Only include if there is an active or upcoming severe weather event"
+    }
+  ]
+}

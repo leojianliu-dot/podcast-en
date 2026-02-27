@@ -1,0 +1,14 @@
+{
+  "podcast_name": "Daily News Briefing",
+  "podcast_name_en": "Daily News Briefing",
+  "description": "AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.",
+  "description_en": "AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.",
+  "author": "Daily News Briefing",
+  "language": "en-us",
+  "category": "News",
+  "subcategory": "Daily News",
+  "default_voice": "en-US-GuyNeural",
+  "base_url": "https://leojianliu-dot.github.io/podcast-en",
+  "episodes_per_page": 50,
+  "image_url": "https://leojianliu-dot.github.io/podcast-en/cover.png"
+}
