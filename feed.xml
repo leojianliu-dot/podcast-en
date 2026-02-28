@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 15:06:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 15:35:26 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -27,6 +27,17 @@
       <itunes:duration>11:57</itunes:duration>
       <itunes:author>Daily News Briefing</itunes:author>
       <itunes:summary>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Grounded — The Air Travel Chaos From the Iran Conflict</title>
+      <description>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from Al Jazeera, Bloomberg, CNBC, The National, Flightradar24, Fortune, and other major outlets. Today is Friday, February 28th, 2026, and if you're anywhere near an airport right now</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-air-travel-disruption.mp3" length="4260384" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-air-travel-disruption.mp3</guid>
+      <pubDate>Sat, 28 Feb 2026 15:35:00 GMT</pubDate>
+      <itunes:duration>11:50</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from Al Jazeera, Bloomberg, CNBC, The National, Flightradar24, Fortune, and other major outlets. Today is Friday, February 28th, 2026, and if you're anywhere near an airport right now</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
