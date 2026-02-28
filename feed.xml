@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily News Briefing</title>
+    <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2026 15:06:49 GMT</lastBuildDate>
+    <link>https://leojianliu-dot.github.io/podcast-en</link>
+    <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Daily News Briefing</itunes:author>
+    <itunes:summary>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</itunes:summary>
+    <itunes:category text="News">
+      <itunes:category text="Daily News"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
+    <item>
+      <title>Operation Epic Fury — US and Israel Strike Iran Overnight</title>
+      <description>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-us-iran-strikes.mp3" length="4307328" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-us-iran-strikes.mp3</guid>
+      <pubDate>Sat, 28 Feb 2026 15:06:37 GMT</pubDate>
+      <itunes:duration>11:57</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+  </channel>
+</rss>
