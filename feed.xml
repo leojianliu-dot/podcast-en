@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 02:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 17:09:24 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -18,6 +18,17 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
+    <item>
+      <title>Behind the Scenes — How We Make This Podcast (And How You Can Make Your Own)</title>
+      <description>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. Today we're doing something different. Instead of the news, we're pulling back the curtain. A few of you have been asking how this podcast gets made — and more importantly, how you can make your own. So that's exactly what</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-02-how-we-make-this-podcast.mp3" length="3620448" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-02-how-we-make-this-podcast.mp3</guid>
+      <pubDate>Mon, 02 Mar 2026 17:09:18 GMT</pubDate>
+      <itunes:duration>10:03</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. Today we're doing something different. Instead of the news, we're pulling back the curtain. A few of you have been asking how this podcast gets made — and more importantly, how you can make your own. So that's exactly what</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Operation Epic Fury — US and Israel Strike Iran Overnight</title>
       <description>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</description>
