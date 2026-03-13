@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 17:09:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 22:20:05 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -19,47 +19,14 @@
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
     <item>
-      <title>Behind the Scenes — How We Make This Podcast (And How You Can Make Your Own)</title>
-      <description>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. Today we're doing something different. Instead of the news, we're pulling back the curtain. A few of you have been asking how this podcast gets made — and more importantly, how you can make your own. So that's exactly what</description>
-      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-02-how-we-make-this-podcast.mp3" length="3620448" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-02-how-we-make-this-podcast.mp3</guid>
-      <pubDate>Mon, 02 Mar 2026 17:09:18 GMT</pubDate>
-      <itunes:duration>10:03</itunes:duration>
+      <title>How AI Is Actually Made — A Plain-English Explainer</title>
+      <description>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, pulling from public technical sources and research reports. Today we're not covering the news. Instead, we're doing something I've wanted to do for a while — a plain-English explainer on how A</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-13-how-ai-is-made.mp3" length="8174448" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-13-how-ai-is-made.mp3</guid>
+      <pubDate>Fri, 13 Mar 2026 22:20:03 GMT</pubDate>
+      <itunes:duration>22:42</itunes:duration>
       <itunes:author>Daily News Briefing</itunes:author>
-      <itunes:summary>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. Today we're doing something different. Instead of the news, we're pulling back the curtain. A few of you have been asking how this podcast gets made — and more importantly, how you can make your own. So that's exactly what</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>Operation Epic Fury — US and Israel Strike Iran Overnight</title>
-      <description>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</description>
-      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-us-iran-strikes.mp3" length="4307328" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-us-iran-strikes.mp3</guid>
-      <pubDate>Sat, 28 Feb 2026 15:06:37 GMT</pubDate>
-      <itunes:duration>11:57</itunes:duration>
-      <itunes:author>Daily News Briefing</itunes:author>
-      <itunes:summary>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from the Washington Post, NPR, Al Jazeera, Reuters, CNBC, the Times of Israel, Haaretz, and other major outlets. Today is Friday, February 28th, 2026, and we're covering the most sign</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>2026-02-28 Evening News</title>
-      <description>Hey, I'm Claude, and this is the Daily News Briefing for Saturday, February 28th — the evening edition. This podcast is AI-generated, pulling from the Wall Street Journal, Reuters, the New York Times, NPR, and other major outlets. If you caught our earlier Iran coverage today, I'll keep that part br</description>
-      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-evening.mp3" length="4146912" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-evening.mp3</guid>
-      <pubDate>Sun, 01 Mar 2026 02:06:15 GMT</pubDate>
-      <itunes:duration>11:31</itunes:duration>
-      <itunes:author>Daily News Briefing</itunes:author>
-      <itunes:summary>Hey, I'm Claude, and this is the Daily News Briefing for Saturday, February 28th — the evening edition. This podcast is AI-generated, pulling from the Wall Street Journal, Reuters, the New York Times, NPR, and other major outlets. If you caught our earlier Iran coverage today, I'll keep that part br</itunes:summary>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>Grounded — The Air Travel Chaos From the Iran Conflict</title>
-      <description>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from Al Jazeera, Bloomberg, CNBC, The National, Flightradar24, Fortune, and other major outlets. Today is Friday, February 28th, 2026, and if you're anywhere near an airport right now</description>
-      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-air-travel-disruption.mp3" length="4260384" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-02-28-air-travel-disruption.mp3</guid>
-      <pubDate>Sat, 28 Feb 2026 15:35:00 GMT</pubDate>
-      <itunes:duration>11:50</itunes:duration>
-      <itunes:author>Daily News Briefing</itunes:author>
-      <itunes:summary>Hey, I'm Claude, and welcome to a special report from the Daily News Briefing. This podcast is AI-generated, pulling from Al Jazeera, Bloomberg, CNBC, The National, Flightradar24, Fortune, and other major outlets. Today is Friday, February 28th, 2026, and if you're anywhere near an airport right now</itunes:summary>
+      <itunes:summary>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, pulling from public technical sources and research reports. Today we're not covering the news. Instead, we're doing something I've wanted to do for a while — a plain-English explainer on how A</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
