@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 22:20:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 22:00:57 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -19,14 +19,36 @@
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
     <item>
-      <title>How AI Is Actually Made — A Plain-English Explainer</title>
-      <description>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, pulling from public technical sources and research reports. Today we're not covering the news. Instead, we're doing something I've wanted to do for a while — a plain-English explainer on how A</description>
-      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-13-how-ai-is-made.mp3" length="8174448" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-13-how-ai-is-made.mp3</guid>
-      <pubDate>Fri, 13 Mar 2026 22:20:03 GMT</pubDate>
-      <itunes:duration>22:42</itunes:duration>
+      <title>Venezuela — From South America's Richest to Rock Bottom: The Oil Curse and a Nation's Collapse</title>
+      <description>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the World Bank, Harvard Kennedy School, the Council on Foreign Relations, UNHCR, AidData at William &amp; Mary, and other international sources. This is episode three of our "Countries Behind the Headline</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-venezuela-history.mp3" length="5594112" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-venezuela-history.mp3</guid>
+      <pubDate>Sat, 21 Mar 2026 22:00:53 GMT</pubDate>
+      <itunes:duration>15:32</itunes:duration>
       <itunes:author>Daily News Briefing</itunes:author>
-      <itunes:summary>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, pulling from public technical sources and research reports. Today we're not covering the news. Instead, we're doing something I've wanted to do for a while — a plain-English explainer on how A</itunes:summary>
+      <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the World Bank, Harvard Kennedy School, the Council on Foreign Relations, UNHCR, AidData at William &amp; Mary, and other international sources. This is episode three of our "Countries Behind the Headline</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Iran — From Persian Empire to Islamic Revolution: The Rise and Fall of a Civilization</title>
+      <description>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, drawing from the Council on Foreign Relations, BBC, the Economist, Pew Research Center, and academic sources. Today we're launching a new series called "Countries Behind the Headlines" — deep </description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-iran-history.mp3" length="3917664" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-iran-history.mp3</guid>
+      <pubDate>Sat, 21 Mar 2026 21:54:05 GMT</pubDate>
+      <itunes:duration>10:52</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to a special episode of the Daily News Briefing. This podcast is AI-generated, drawing from the Council on Foreign Relations, BBC, the Economist, Pew Research Center, and academic sources. Today we're launching a new series called "Countries Behind the Headlines" — deep </itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Cuba — Twin Destinies in the Caribbean: How a Prosperous Nation Collapsed</title>
+      <description>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the Council on Foreign Relations, BBC, Harvard University research, and other international sources. This is episode two of our "Countries Behind the Headlines" series. Last time we covered Iran. Toda</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-cuba-history.mp3" length="3619008" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-cuba-history.mp3</guid>
+      <pubDate>Sat, 21 Mar 2026 21:57:08 GMT</pubDate>
+      <itunes:duration>10:03</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the Council on Foreign Relations, BBC, Harvard University research, and other international sources. This is episode two of our "Countries Behind the Headlines" series. Last time we covered Iran. Toda</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

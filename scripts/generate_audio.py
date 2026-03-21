@@ -42,7 +42,7 @@ VOICES_EN = {
 }
 
 DEFAULT_VOICE_ZH = "zh-CN-YunxiNeural"
-DEFAULT_VOICE_EN = "en-US-GuyNeural"
+DEFAULT_VOICE_EN = "en-US-AndrewNeural"
 
 
 def detect_language_from_content(text):
@@ -81,16 +81,52 @@ def clean_script_for_tts(text):
     # Remove HTML tags if any
     text = re.sub(r'<[^>]+>', '', text)
     # Remove lines that are just metadata (e.g., "Date:", "Voice:", "Format:")
-    text = re.sub(r'^(Date|Voice|Format|Topic|Duration|Sources?|Language|Title):.*$', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^(Date|Voice|Format|Topic|Duration|Sources?|Language|Title|Keep|PubDate):.*$', '', text, flags=re.MULTILINE)
     # Collapse multiple blank lines into one
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
 
 
+def split_text_into_chunks(text, max_chars=2000):
+    """Split text into chunks at paragraph boundaries, each under max_chars."""
+    paragraphs = text.split('\n\n')
+    chunks = []
+    current_chunk = ""
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+        if current_chunk and len(current_chunk) + len(para) + 2 > max_chars:
+            chunks.append(current_chunk.strip())
+            current_chunk = para
+        else:
+            current_chunk = current_chunk + "\n\n" + para if current_chunk else para
+    if current_chunk.strip():
+        chunks.append(current_chunk.strip())
+    return chunks if chunks else [text]
+
+
 async def generate_audio(text, output_file, voice, rate="+0%"):
-    """Generate MP3 from text using Edge TTS."""
-    communicate = edge_tts.Communicate(text, voice, rate=rate)
-    await communicate.save(output_file)
+    """Generate MP3 from text using Edge TTS with chunking for long texts."""
+    chunks = split_text_into_chunks(text, max_chars=2000)
+    if len(chunks) == 1:
+        communicate = edge_tts.Communicate(chunks[0], voice, rate=rate)
+        await communicate.save(output_file)
+    else:
+        print(f"  Splitting into {len(chunks)} chunks for TTS...")
+        audio_data = b""
+        for i, chunk in enumerate(chunks):
+            print(f"  Generating chunk {i+1}/{len(chunks)} ({len(chunk)} chars)...")
+            communicate = edge_tts.Communicate(chunk, voice, rate=rate)
+            chunk_bytes = b""
+            async for msg in communicate.stream():
+                if msg["type"] == "audio":
+                    chunk_bytes += msg["data"]
+            if not chunk_bytes:
+                raise RuntimeError(f"No audio received for chunk {i+1}")
+            audio_data += chunk_bytes
+        with open(output_file, "wb") as f:
+            f.write(audio_data)
 
 
 def get_audio_duration(filepath):

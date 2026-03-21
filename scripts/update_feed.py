@@ -199,7 +199,7 @@ def get_episode_description(mp3_filename):
                 line = line.strip()
                 if not line or line.startswith("#") or line.startswith("---"):
                     continue
-                if line.startswith(("Date:", "Voice:", "Format:", "Language:", "Topic:", "Sources:", "Title:")):
+                if line.startswith(("Date:", "Voice:", "Format:", "Language:", "Topic:", "Sources:", "Title:", "Keep:", "PubDate:")):
                     continue
                 desc_lines.append(line)
                 if len(desc_lines) >= 3:
@@ -286,16 +286,34 @@ def generate_feed(settings, episodes):
     return "\n".join(xml_parts)
 
 
+def is_kept_episode(script_basename):
+    """Check if an episode's script has 'Keep: true' metadata, meaning it should
+    be preserved permanently and not auto-deleted by cleanup."""
+    for ext in [".md", ".txt"]:
+        script_path = os.path.join(SCRIPTS_DIR, script_basename + ext)
+        if os.path.exists(script_path):
+            with open(script_path, "r", encoding="utf-8") as f:
+                for i, line in enumerate(f):
+                    if i >= 15:
+                        break
+                    if line.strip().lower().startswith("keep:") and "true" in line.lower():
+                        return True
+    return False
+
+
 def cleanup_old_episodes(max_age_days=2):
     """Delete episodes and scripts older than max_age_days based on filename date.
 
     Parses the date from filenames like 2026-02-25-morning.mp3 and removes
     both the .mp3 in episodes/ and the matching .md in episode-scripts/.
+
+    Episodes with 'Keep: true' in their script metadata are preserved permanently.
     """
     today = datetime.now(timezone.utc).date()
     cutoff = today - timedelta(days=max_age_days)
     date_pattern = re.compile(r'^(\d{4}-\d{2}-\d{2})')
     removed = []
+    kept = []
 
     # Clean episodes/
     if os.path.exists(EPISODES_DIR):
@@ -310,6 +328,10 @@ def cleanup_old_episodes(max_age_days=2):
             except ValueError:
                 continue
             if file_date < cutoff:
+                script_basename = os.path.splitext(f)[0]
+                if is_kept_episode(script_basename):
+                    kept.append(f"episodes/{f}")
+                    continue
                 path = os.path.join(EPISODES_DIR, f)
                 os.remove(path)
                 removed.append(f"episodes/{f}")
@@ -327,6 +349,10 @@ def cleanup_old_episodes(max_age_days=2):
             except ValueError:
                 continue
             if file_date < cutoff:
+                script_basename = os.path.splitext(f)[0]
+                if is_kept_episode(script_basename):
+                    kept.append(f"episode-scripts/{f}")
+                    continue
                 path = os.path.join(SCRIPTS_DIR, f)
                 os.remove(path)
                 removed.append(f"episode-scripts/{f}")
@@ -335,6 +361,10 @@ def cleanup_old_episodes(max_age_days=2):
         print(f"Cleaned up {len(removed)} old files (>{max_age_days} days):")
         for r in removed:
             print(f"  - {r}")
+    if kept:
+        print(f"Preserved {len(kept)} kept files (Keep: true):")
+        for k in kept:
+            print(f"  - {k}")
     return removed
 
 
