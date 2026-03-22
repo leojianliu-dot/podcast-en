@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2026 22:00:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 00:03:57 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -49,6 +49,17 @@
       <itunes:duration>10:03</itunes:duration>
       <itunes:author>Daily News Briefing</itunes:author>
       <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the Council on Foreign Relations, BBC, Harvard University research, and other international sources. This is episode two of our "Countries Behind the Headlines" series. Last time we covered Iran. Toda</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Bulgaria — The Comeback Nobody Noticed: A Former Soviet Satellite's Road to Rebirth</title>
+      <description>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the European Commission, World Bank, BBC, MIT Press, and other international sources. This is a special episode of our "Countries Behind the Headlines" series. In our previous episodes, we covered Ira</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-bulgaria-history.mp3" length="4654080" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-bulgaria-history.mp3</guid>
+      <pubDate>Sun, 22 Mar 2026 00:03:51 GMT</pubDate>
+      <itunes:duration>12:55</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the European Commission, World Bank, BBC, MIT Press, and other international sources. This is a special episode of our "Countries Behind the Headlines" series. In our previous episodes, we covered Ira</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
