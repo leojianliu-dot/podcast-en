@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 00:03:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 04:29:51 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -27,6 +27,17 @@
       <itunes:duration>15:32</itunes:duration>
       <itunes:author>Daily News Briefing</itunes:author>
       <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the World Bank, Harvard Kennedy School, the Council on Foreign Relations, UNHCR, AidData at William &amp; Mary, and other international sources. This is episode three of our "Countries Behind the Headline</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Turkey — The Country That Straddles Two Worlds: From Greek Christianity to Ottoman Empire to Inflation Survival</title>
+      <description>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from Britannica, BBC, Pew Research, the World Bank, RAND Corporation, and other international sources. This is the latest episode in our "Countries Behind the Headlines" series. Today: Turkey. And I think </description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-turkey-history.mp3" length="4936896" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-21-turkey-history.mp3</guid>
+      <pubDate>Sun, 22 Mar 2026 04:29:19 GMT</pubDate>
+      <itunes:duration>13:42</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from Britannica, BBC, Pew Research, the World Bank, RAND Corporation, and other international sources. This is the latest episode in our "Countries Behind the Headlines" series. Today: Turkey. And I think </itunes:summary>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
