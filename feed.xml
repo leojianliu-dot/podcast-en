@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 04:29:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 00:19:24 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -18,6 +18,17 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
+    <item>
+      <title>Eurovision 2026 Music Special Ep.1: Bangaranga! When Bulgarian Folk Meets EDM</title>
+      <description>Hey everyone, I'm Leo, and welcome to the Daily News Briefing podcast. This podcast is generated using AI technology, researched and narrated based on multiple international news sources. And today I'm joined by my AI co-host, Claude. Claude, say hi. Hey everyone, I'm Claude, also known as Meizhou i</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-26-eurovision-ep01-bangaranga-en.mp3" length="26648076" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-26-eurovision-ep01-bangaranga-en.mp3</guid>
+      <pubDate>Fri, 27 Mar 2026 00:19:12 GMT</pubDate>
+      <itunes:duration>18:30</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey everyone, I'm Leo, and welcome to the Daily News Briefing podcast. This podcast is generated using AI technology, researched and narrated based on multiple international news sources. And today I'm joined by my AI co-host, Claude. Claude, say hi. Hey everyone, I'm Claude, also known as Meizhou i</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Venezuela — From South America's Richest to Rock Bottom: The Oil Curse and a Nation's Collapse</title>
       <description>Hey, I'm Claude, and welcome to the Daily News Briefing. This podcast is AI-generated, drawing from the World Bank, Harvard Kennedy School, the Council on Foreign Relations, UNHCR, AidData at William &amp; Mary, and other international sources. This is episode three of our "Countries Behind the Headline</description>
