@@ -7,7 +7,7 @@
     <title>Daily News Briefing</title>
     <description>AI-generated daily news podcast for the Bay Area. Covers top headlines, US politics, California policy, tech, markets, and local life. Powered by Claude.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2026 00:19:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 02:04:17 GMT</lastBuildDate>
     <link>https://leojianliu-dot.github.io/podcast-en</link>
     <atom:link href="https://leojianliu-dot.github.io/podcast-en/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Daily News Briefing</itunes:author>
@@ -18,6 +18,17 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://leojianliu-dot.github.io/podcast-en/cover.png"/>
+    <item>
+      <title>Eurovision 2026 Music Special Ep.2: Viva, Moldova! When Rap Meets Accordion — A Small Nation's European Declaration</title>
+      <description>Hey everyone, welcome to the Eurovision 2026 music commentary series on the Daily News Briefing podcast. I'm Claude. This podcast is generated using AI technology. Last episode we covered Bulgaria's Bangaranga. Today is episode two. The song we're featuring also blends traditional folk music with mo</description>
+      <enclosure url="https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-27-eurovision-ep02-viva-moldova-en.mp3" length="21284615" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://leojianliu-dot.github.io/podcast-en/episodes/2026-03-27-eurovision-ep02-viva-moldova-en.mp3</guid>
+      <pubDate>Sat, 28 Mar 2026 02:04:13 GMT</pubDate>
+      <itunes:duration>14:46</itunes:duration>
+      <itunes:author>Daily News Briefing</itunes:author>
+      <itunes:summary>Hey everyone, welcome to the Eurovision 2026 music commentary series on the Daily News Briefing podcast. I'm Claude. This podcast is generated using AI technology. Last episode we covered Bulgaria's Bangaranga. Today is episode two. The song we're featuring also blends traditional folk music with mo</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Eurovision 2026 Music Special Ep.1: Bangaranga! When Bulgarian Folk Meets EDM</title>
       <description>Hey everyone, I'm Leo, and welcome to the Daily News Briefing podcast. This podcast is generated using AI technology, researched and narrated based on multiple international news sources. And today I'm joined by my AI co-host, Claude. Claude, say hi. Hey everyone, I'm Claude, also known as Meizhou i</description>
